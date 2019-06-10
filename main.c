@@ -1,4 +1,5 @@
 #include "factorial.h"
+#include "fibonacci.hpp"
 //#include "complex.hpp"
 
 int main()
@@ -41,6 +42,7 @@ int main()
 
           break;
           case 5:
+          fibonacci();
           break;
         }
         return 0;
