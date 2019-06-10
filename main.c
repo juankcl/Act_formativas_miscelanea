@@ -1,5 +1,5 @@
 #include "factorial.h"
-#include "fibonacci.h"
+#include "fibonacci.hpp"
 
 int main()
 {

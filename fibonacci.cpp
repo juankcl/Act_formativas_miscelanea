@@ -1,4 +1,4 @@
-#include "fibonacci.h"
+#include "fibonacci.hpp"
 #include <iostream>
 using namespace std;
 void fibonacci(){
