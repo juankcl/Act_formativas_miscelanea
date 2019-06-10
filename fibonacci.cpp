@@ -1,24 +1,12 @@
+#include "fibonacci.h"
 #include <iostream>
 using namespace std;
-
-int fibonacci(int opt);
-
-int main(int argc, char const *argv[]){
-    char option;
-    int terminos;
-    while(true){
+void fibonacci(){
+    int opt;
+    
         cout << "Cuantos trminos de la serie de Fibonacci quieres ver?" << endl;
-        cin >> terminos;
-        fibonacci(terminos);
-        cout << "Quieres continuar? [S/N] ";
-        cin >> option;
-        if(option == 'n' or option == 'N') break;
-    }
-    return 0;
-}
-
-int fibonacci(int opt){
-    int a=0, b=1, c;
+        cin >> opt;
+        int a=0, b=1, c;
     if (opt == 0){
         cout << endl;
     }else{
@@ -39,7 +27,5 @@ int fibonacci(int opt){
         }
         
     }
-    
-    
+        
 }
-
