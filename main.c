@@ -1,5 +1,5 @@
 #include "factorial.h"
-#include "complex.hpp"
+//#include "complex.hpp"
 
 int main()
 {
@@ -23,22 +23,22 @@ int main()
           case 3:
           break;
           case 4:
-          	float a;
-          	float b;
-          	n_complex c;
-          	printf("Teclee el primer valor real: ");
-          	scanf("%f",&a);
-          	printf("\n Teclee el primer valor imaginario: ");
-          	scanf("%f",&b);
-          	n_complex val1(a,b);
-          	printf("Teclee el primer segundo real: ");
-          	scanf("%f",&a);
-          	printf("\n Teclee el primer segundo imaginario: ");
-          	scanf("%f",&b);
-          	n_complex val2(a,b);
-          	c=val1*val2;
-          	c.s_print();
-          	
+          	// float a;
+          	// float b;
+          	// n_complex c;
+          	// printf("Teclee el primer valor real: ");
+          	// scanf("%f",&a);
+          	// printf("\n Teclee el primer valor imaginario: ");
+          	// scanf("%f",&b);
+          	// n_complex val1(a,b);
+          	// printf("Teclee el primer segundo real: ");
+          	// scanf("%f",&a);
+          	// printf("\n Teclee el primer segundo imaginario: ");
+          	// scanf("%f",&b);
+          	// n_complex val2(a,b);
+          	// c=val1*val2;
+          	// c.s_print();
+
           break;
           case 5:
           break;

@@ -1,6 +1,6 @@
 #ifndef COMPLEX_HPP
 #define COMPLEX_HPP
-#include <iostream>
+#include <stdio.h>
 class n_complex{
 public:
         n_complex();

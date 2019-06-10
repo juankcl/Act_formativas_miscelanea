@@ -5,7 +5,8 @@
             im=0;
         }
         void n_complex::s_print(){
-            std::cout<<"El valor es: "<<real<<" " <<im<<"i "<<std::endl;
+            printf("El valor es: %d + %d\n", real, im );
+            //std::cout<<"El valor es: "<<real<<" " <<im<<"i "<<std::endl;
         }
 
         n_complex::n_complex(float r, float i){
